@@ -1,0 +1,179 @@
+.sidebar {
+    position: sticky;
+    width: 225px;
+    top:80px
+}
+.upperSide {
+    height: 390px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffffda;
+/*     background-color: rgb(111, 153, 227);*/
+    outline-style: solid;
+    outline-width: 0.1px;
+    outline-color: lightgray;
+}
+.upperFirst {
+    position: relative;
+    cursor: pointer;
+}
+.banner {
+    height: 56px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.picture {
+    position: absolute !important;
+    object-fit: contain;
+    height: 72px !important;
+    width: 72px !important;
+    z-index: 999;
+    margin-top: 20px;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: white;
+}
+
+.name {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.name:hover {
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+.bio {
+    color: grey;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 18px;
+    border-bottom: .1px solid lightgray;
+}
+.variableContainer {
+    display: flex;
+    font-size: 12px;
+    padding-top: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+.profileViews:hover {
+    background-color: #c8c8c8;
+}
+.connectionsContainer:hover {
+    background-color: #c8c8c8;
+}
+.variableName {
+    color: grey;
+    padding-left: 12px;
+}
+.variableValue {
+    color: #1072cd;
+    margin-left: auto;
+    padding-right: 12px;
+
+}
+.growNetwork {
+    font-size: 13px;
+    padding-left: 12px;
+    padding-bottom: 14px;
+    border-bottom: .1px solid lightgrey;
+
+}
+.upperThird:hover {
+    background-color: #c8c8c8;
+}
+.accessExclusive {
+    padding-top: 13px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 12px;
+}
+.premiumContainer {
+    display: flex;
+    align-items: center;
+    border-bottom: .1px solid lightgray;
+    padding-bottom: 14px;
+}
+.premium {
+    color: rgb(216, 192, 55);
+    padding-left: 12px;
+}
+.getHired {
+    text-decoration: underline;
+    font-size: 12px;
+    padding-left: 12px;
+}
+.upperFourth {
+    display: flex;
+    align-items: center;
+
+}
+.upperFourth:hover {
+    background-color: #c8c8c8;
+}
+.bookmark {
+    color: rgb(93, 93, 93);
+    padding-top: 13px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+}
+.myItems {
+    padding-top: 13px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    padding-left: 12px;
+}
+
+
+
+
+
+.lowerSide {
+    background-color: #ffffff;
+    height: 150px;
+    border-radius: 10px;
+    outline-style: solid;
+    outline-width: 0.1px;
+    outline-color: lightgray;
+}
+.dropdownOption {
+    color: #1072cd;
+    padding-top: 14px;
+    padding-left: 12px;
+    font-size: 12px;
+
+}
+.eventsContainer {
+    display: flex;
+    align-items: center;
+
+}
+.plus {
+    color: grey;
+    padding-top: 16px;
+    padding-right: 12px;
+    margin-left: auto;
+}
+.lastDropdownOption {
+    border-bottom: .1px solid lightgray;
+    padding-bottom: 10px;
+
+}
+.discoverMore {
+    height: 100%
+}
+.discoverMoreText {
+    color: grey;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 16px;
+}
+.discoverMore:hover {
+    background-color: #c8c8c8;
+}
