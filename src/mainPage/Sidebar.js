@@ -19,7 +19,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebarTop">
-                <img src="https://media.licdn.com/dms/image/C4D12AQHMPBvE3avWzg/article-inline_image-shrink_1000_1488/0/1616872522462?e=1684972800&v=beta&t=6JApKuGeaiLZ0dZytB4qFSrf6Alo2GDJOJTiV7Q1-ns" alt="" />
+                <img src="https://imageio.forbes.com/blogs-images/josephliu/files/2019/06/3-martin-adams-764547-unsplash-1200x300.jpeg?height=177&width=711&fit=bounds" alt="" />
                 <Avatar src={user?.photoURL} className='sidebarAvatar'>
                     {user.email[0].toUpperCase()}
                 </Avatar>
