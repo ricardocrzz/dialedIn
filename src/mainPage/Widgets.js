@@ -17,14 +17,14 @@ function Widgets() {
     return (
         <div className='widgets'>
             <div className="widgetsHeader">
-                <h2>LinkedIn News</h2>
+                <h2>Latest News</h2>
                 <InfoIcon />
             </div>
-            {newsArticle("PAPA React Is Back", "Top news - 9099 readers")}
-            {newsArticle("LEKON!!!", "Top news - 4023 readers")}
-            {newsArticle("Manchester City Knock Out Bayern Munich", "Top news - 2093 readers")}
-            {newsArticle("April 21st Haul Incoming", "Top news - 302 readers")}
-            {newsArticle("Calorie Deficit?", "Top news - 93 readers")}
+            {newsArticle("Happy Canada Day!", "July 1st, 2024 - 299 readers")}
+            {newsArticle("Ronaldo Misses Penalty vs Slovenia", "July 1st, 2024 - 4023 readers")}
+            {newsArticle("Is Coal the New Gold?", "June 29th, 2024 - 302 readers")}
+            {newsArticle("Workouts for the Summer", "June 26th, 2024 - 93 readers")}
+            {newsArticle("Oilers Defeated in Game 7", "June 24th, 2024 - 2093 readers")}
         </div>
     )
 }
