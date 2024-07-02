@@ -20,17 +20,18 @@
     align-items: center;
 }
 .headerTitle {
-    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+.headerTitleText {
+    font-size: 30px;
     font-weight: bold;
-    padding: 1px;
     margin-top: 1px;
 }
-.headerIcon {
+.headerTitleIcon {
     display: flex;
-    
     margin-right: 10px;
     height: 40px;
-
 }
 .headerSearch{
     color: grey;

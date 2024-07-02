@@ -6,12 +6,12 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.loginTitleDiv {
+.loginTitle {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
 }
-.loginTitle {
+.loginTitleText {
     font-size: 55px;
     font-weight: bold;
 }
