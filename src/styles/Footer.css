@@ -1,0 +1,40 @@
+.footer {
+    background-color: white;
+    color: grey;
+    padding: 20px;
+    text-align: center; /* Center-align text */
+    width: 100%;
+    margin: 0 auto; /* Center align content */
+}
+
+.footerLinks {
+    padding: 10px 0;
+}
+
+.footerLinks li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 10px;
+}
+
+.footerLinks li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footerLinks li a:hover {
+    text-decoration: underline;
+}
+
+.footerSocial {
+    margin-top: 10px;
+}
+
+.footerSocial a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 10px;
+}
+
+.footerSocial a:hover {
+    text-decoration: underline;
+}

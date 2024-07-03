@@ -6,6 +6,7 @@ import Feed from './mainPage/Feed';
 import Header from './mainPage/Header';
 import Sidebar from './mainPage/Sidebar';
 import Widgets from './mainPage/Widgets';
+import Footer from './mainPage/Footer';
 import Login from './mainPage/Login';
 import { useEffect } from 'react';
 
@@ -20,19 +21,18 @@ function App() {
           email: userAuth.email,
           uid: userAuth.uid,
           displayName: userAuth.displayName,
-          photoUrl: userAuth.photoUrl
+          photoUrl: userAuth.photoURL
         }))
       }
       else {
-        dispatch(logout)
+        dispatch(logout())
       }
     })
-  }, [])
+  }, [dispatch])
 
   return (
     <div className="app">
       <Header />
-
       {!user ? (
         <Login />
       ) : (
@@ -42,6 +42,7 @@ function App() {
           <Widgets />
         </div>
       )}
+      <div className='appFooter'><Footer /></div>
     </div >
   );
 }
