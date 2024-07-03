@@ -3,12 +3,12 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCOBECFWlHad0TgcAaF_AfouajJ2Jspb90",
-    authDomain: "dialedin-7b3f8.firebaseapp.com",
-    projectId: "dialedin-7b3f8",
-    storageBucket: "dialedin-7b3f8.appspot.com",
-    messagingSenderId: "14627041019",
-    appId: "1:14627041019:web:01c7739663ac5706e84a5e"
+    apiKey: REACT_APP_API_KEY,
+    authDomain: REACT_APP_AUTH_DOMAIN,
+    projectId: REACT_APP_PROJECT_ID,
+    storageBucket: REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: REACT_APP_MESSAGING_SENDER_ID,
+    appId: REACT_APP_APP_ID
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
