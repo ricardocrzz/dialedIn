@@ -5,9 +5,9 @@ function Footer() {
         <div className='footer'>
             <p>&copy; 2024 DialedIn by Ricardo Cruz. All rights reserved.</p>
             <ul className="footerLinks">
-                <li><a href="#" class="footerLink">Privacy Policy</a></li>
-                <li><a href="#" class="footerLink">Terms of Use</a></li>
-                <li><a href="#" class="footerLink">Contact Us</a></li>
+                <li><a href="#" className="footerLink">Privacy Policy</a></li>
+                <li><a href="#" className="footerLink">Terms of Use</a></li>
+                <li><a href="#" className="footerLink">Contact Us</a></li>
             </ul>
             <div className="footerSocial">
                 <a href="https://github.com/ricardocrzz">Github</a>
